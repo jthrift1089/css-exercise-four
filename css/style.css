@@ -41,16 +41,13 @@ img {
   margin: auto;
 }
 
-@media only screen and (575px : 768px) and (768px: 1024px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
-@media only screen and (2048px : 2732px) {
-  .column {
-    float: left;
-    width: 25%;
+@media screen and (min-width: 320px) {
+  div {column-count: 2;
+
   }
+
+@media screen and (min-width: 1024px) {
+  div {column-count: 4}
+
 }

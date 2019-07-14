@@ -29,6 +29,8 @@ h1 {
 }
 
 
+
+
 .container {
   margin: 20px auto;
   width: 30%;
@@ -41,13 +43,16 @@ img {
   margin: auto;
 }
 
+//* For taplets *//
+@media screen and (min-width: 575px) {
+  div {column-count: 2}
+  div {margin: 50%;
+  width: 10px}
+}
 
-@media screen and (min-width: 320px) {
-  div {column-count: 2;
-
-  }
-
-@media screen and (min-width: 1024px) {
+//* For laptops *//
+@media screen and (min-width: 1025px) {
   div {column-count: 4}
-
+  div {margin: 50%;
+  width: 10px}
 }

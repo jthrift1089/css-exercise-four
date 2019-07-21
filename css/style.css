@@ -7,7 +7,9 @@ body {
 }
 
 .container {
-  text-align: center;
+  margin: 0 auto;
+  width: 375px;
+  margin-left: 80px;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 }
 
 .preview {
-width: 40%;
+width: 50%;
 height: 160px;
 background-size: cover;
 background-repeat: no-repeat;
@@ -27,23 +29,23 @@ background-repeat: no-repeat;
 
 .baku {
   background-image: url("baku.jpg");
-  width: 40%;
+  width: 50%;
 }
 
 .london {
 background-image:
      url("london.png");
-     width: 40%;
+width: 50%;
    }
 
 .madrid {
   background-image: url("madrid.jpg");
-  width: 40%;
+width: 50%;
 }
 
 .rome {
   background-image: url("rome.jpg");
-  width: 40%;
+width: 50%;
 }
 
 
@@ -56,7 +58,6 @@ background-image:
   background-repeat: no-repeat;
   display: inline-block;
   }
-
 }
 
 }
